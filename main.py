@@ -81,7 +81,7 @@ async def scrape_trendyol():
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
 
-    for i in range(2, 4):  # Adjust the range as needed
+    for i in range(2, 30):  # Adjust the range as needed
         trendyol_url = f'https://www.trendyol.com/en/sr?wg=2&pi={i}'
         response = requests.get(trendyol_url, headers=headers)
 
