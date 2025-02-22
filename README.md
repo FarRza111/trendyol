@@ -3,16 +3,16 @@ Bu layihə FastAPI istifadə edərək Trendyol məhsulları üçün veb skreperd
 
 
 
-### Repository to clone
+### 
 
     git clone git@github.com:FarRza111/trendyol.git
     cd trendyol
 
-### Install packages
+### 
 
     pip install -r requirements.txt
 
-### Run in terminal
+### 
     uvicorn main:app --reload
 
 
