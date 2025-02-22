@@ -1,4 +1,4 @@
-### Trendyol Scraper with FastAPI
+### Trendyol Scraper (FastAPI)
 Bu layihə FastAPI istifadə edərək Trendyol məhsulları üçün veb skreperdir. Trendyol saytından məhsul məlumatlarını (ad, qiymət, reytinq, və s.) skrap edir, məlumatları SQLite verilənlər bazasında saxlayır və skrap edilmiş məlumatlarla əlaqə yaratmaq üçün RESTful API endpointləri təqdim edir.
 
 
