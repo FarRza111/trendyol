@@ -8,8 +8,11 @@ from sklearn.metrics import accuracy_score
 
 # 1. Load dataset
 iris = load_iris()
-X = iris.data          # Features
-y = iris.target        # Labels
+       # Features
+y = iris.target_        # Labels
+
+def do_nothing():
+    pass
 
 
 def part1():
